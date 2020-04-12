@@ -1,37 +1,5 @@
 ---
 
-- title: ICPR
-  year: 2020
-  id: icpr20
-  link: https://www.micc.unifi.it/icpr2020
-  deadline: '2020-03-18 23:59:59'
-  timezone: UTC+1
-  date: Sep 13-18, 2020
-  place: Milan, Italy
-  sub: CV
-
-- title: ECML-PKDD
-  year: 2020
-  id: ecmlpkdd2020
-  link: https://ecmlpkdd2020.net/
-  deadline: '2020-03-26 23:59:59'
-  abstract_deadline: '2020-03-19 23:59:59'
-  timezone: UTC-12
-  date: September 14-18, 2020
-  place: Ghent, Belgium
-  sub: ML
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 19, 2020. More info <a href=''https://ecmlpkdd2020.net/submissions/deadlines/''>here</a>.'
-
-- title: COLING
-  year: 2020
-  id: coling20
-  link: https://coling2020.org/
-  deadline: '2020-04-08 23:59:59'
-  timezone: UTC-12
-  date: September 13-18, 2020
-  place: Barcelona, Spain
-  sub: NLP
-
 - title: ISMIR
   year: 2020
   id: ismir20
@@ -78,6 +46,18 @@
   sub: DM
   note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 24, 2020. More info <a href=''https://cikm2020.org/call-for-papers-full-and-short-research-papers/''>here</a>.'
 
+- title: RecSys
+  year: 2020
+  id: recsys20
+  link: https://recsys.acm.org/recsys20/
+  deadline: '2020-05-04 23:59:59'
+  abstract_deadline: '2020-04-27 23:59:59'
+  timezone: UTC-12
+  date: September 22-26, 2020
+  place: Rio de Janeiro, Brazil
+  sub: DM
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 27, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
+
 - title: InterSpeech
   year: 2020
   id: interspeech20
@@ -87,16 +67,6 @@
   date: October 25-29, 2020
   place: Shanghai, China
   sub: SP
-
-- title: EMNLP
-  year: 2020
-  id: emnlp20
-  link: https://2020.emnlp.org/
-  deadline: '2020-05-11 23:59:00'
-  timezone: UTC-12
-  date: November 8-10, 2020
-  place: Punta Cana, Dominican Republic
-  sub: NLP
 
 - title: NeurIPS
   year: 2020
@@ -110,6 +80,16 @@
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on May 05, 2020.'
 
+- title: EMNLP
+  year: 2020
+  id: emnlp20
+  link: https://2020.emnlp.org/
+  deadline: '2020-06-01 23:59:00'
+  timezone: UTC-12
+  date: November 16-20, 2020
+  place: Online
+  sub: NLP
+
 - title: ICDM
   year: 2020
   id: icdm20
@@ -120,6 +100,16 @@
   place: Sorrento, Italy
   sub: DM
 
+- title: CoNLL
+  year: 2020
+  id: conll2020
+  link: http://www.conll.org/2020
+  deadline: '2020-06-05 23:59:59'
+  timezone: UTC-12
+  date: November 11-12, 2020
+  place: Punta Cana, Dominican Republic
+  sub: NLP
+
 - title: AACL-IJCNLP
   year: 2020
   id: aacl20
@@ -128,6 +118,16 @@
   timezone: UTC-12
   date: December 4-7, 2020
   place: Suzhou, China
+  sub: NLP
+
+- title: COLING
+  year: 2020
+  id: coling20
+  link: https://coling2020.org/
+  deadline: '2020-07-01 23:59:59'
+  timezone: UTC-12
+  date: December 8-13, 2020
+  place: Barcelona, Spain
   sub: NLP
 
 - title: CoRL
@@ -200,16 +200,6 @@
   place: Cardiff, Wales, UK
   sub: CV
 
-- title: CoNLL
-  year: 2019
-  id: conll2019
-  link: http://www.conll.org/2019
-  deadline: '2019-05-31 23:59:59'
-  timezone: UTC-12
-  date: November 3-4, 2019
-  place: Hong Kong
-  sub: NLP
-
 - title: WSDM
   year: 2020
   id: wsdm20
@@ -257,7 +247,7 @@
   deadline: '2019-09-25 17:59:59'
   timezone: Africa/Nairobi
   date: April 30, 2020
-  place: Addis Ababa, Ethiopia
+  place: Online
   sub: ML
 
 - title: HRI
@@ -458,7 +448,7 @@
   abstract_deadline: '2020-01-30 23:59:00'
   timezone: UTC-12
   date: July 12-18, 2020
-  place: Vienna, Austria
+  place: Online
   sub: ML
   note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 30, 2020. More info <a href=''https://icml.cc/Conferences/2020/CallForPapers''>here</a>.'
 
@@ -523,15 +513,24 @@
   sub: CV
   note: '<b>NOTE</b>: Intent to submit deadline on Mar 03, 2020. More info <a href=''https://www.miccai2020.org/''>here</a>.'
 
-
-- title: RecSys
+- title: ICPR
   year: 2020
-  id: recsys20
-  link: https://recsys.acm.org/recsys20/
-  deadline: '2020-05-04 23:59:59'
-  abstract_deadline: '2020-04-27 23:59:59'
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020
+  deadline: '2020-03-18 23:59:59'
+  timezone: UTC+1
+  date: Sep 13-18, 2020
+  place: Milan, Italy
+  sub: CV
+
+- title: ECML-PKDD
+  year: 2020
+  id: ecmlpkdd2020
+  link: https://ecmlpkdd2020.net/
+  deadline: '2020-04-02 23:59:59'
+  abstract_deadline: '2020-03-19 23:59:59'
   timezone: UTC-12
-  date: September 22-26, 2020
-  place: Rio de Janeiro, Brazil
-  sub: DM
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr. 27, 2020. More info <a href=''https://recsys.acm.org/recsys20/dates/''>here</a>.'
+  date: September 14-18, 2020
+  place: Ghent, Belgium
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Mar 19, 2020. More info <a href=''https://ecmlpkdd2020.net/submissions/deadlines/''>here</a>.'
